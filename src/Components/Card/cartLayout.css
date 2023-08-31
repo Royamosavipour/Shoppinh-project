@@ -1,0 +1,50 @@
+.bag-aside {
+  position: fixed;
+  top: 0;
+  right: -200px;
+  width: 400px;
+  height: 85vh;
+  background-color: var(--with);
+  padding: 20px;
+  z-index: 999999999;
+  overflow-y: auto;
+  transition: 0.5s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+.bag-aside.active {
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.bag-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close-asid-style:hover {
+  box-shadow: 0 4px 6px 5px rgb(199, 199, 199);
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+.bsBag-aside {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.style-span-number {
+  margin-left: 2rem;
+  padding: 5px 15px;
+  font-weight: 600;
+  background-color: var(--grye);
+  color:red;
+background-color: bisque;
+  
+
+}
