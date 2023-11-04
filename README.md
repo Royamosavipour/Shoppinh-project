@@ -1,3 +1,7 @@
+You can see this project [Here](https://shopping-phone-creat-by-roya.netlify.app/)
+This is a React practice project
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
